@@ -38,10 +38,10 @@ var config = {
     },
   },
   blockchainExplorerOpts: {
-    via: {
+    mue: {
       livenet: {
         provider: 'insight',
-        url: 'https://explorer.viacoin.org:443',
+        url: 'https://explorer.monetaryunit.org:443',
       },
       testnet: {
         provider: 'insight',
@@ -68,7 +68,7 @@ var config = {
   pushNotificationsOpts: {
     templatePath: './lib/templates',
     defaultLanguage: 'en',
-    defaultUnit: 'via',
+    defaultUnit: 'mue',
     subjectPrefix: '',
     pushServerUrl: 'https://fcm.googleapis.com/fcm',
     authorizationKey: '',
