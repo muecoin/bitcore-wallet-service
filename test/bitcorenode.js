@@ -2,7 +2,7 @@
 
 var should = require('chai').should();
 var proxyquire = require('proxyquire');
-var bitcore = require('viacore-lib');
+var bitcore = require('bitcore-lib-mue2');
 var sinon = require('sinon');
 var Service = require('../bitcorenode');
 
