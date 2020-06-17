@@ -2,7 +2,7 @@
 
 var LevelStorage = require('../lib/storage_leveldb');
 var MongoStorage = require('../lib/storage');
-var Bitcore = require('viacore-lib');
+var Bitcore = require('bitcore-lib-mue2');
 
 var level = new LevelStorage({
   dbPath: './db',
